@@ -1,0 +1,50 @@
+[
+    {
+        "Id" : 0,
+        "name" : "SMOTHERED CHICKEN",
+        "recipe" : "Pan-fried seasoned crispy tender chicken breasts smothered in an onion gravy are downright delicious. Smothered chicken is easy to make and satisfies all those comfort food cravings.",
+        "image" : "2.jpg"
+    },
+    {
+        "Id" : 1,
+        "name" : "PARMESAN HERB CRUSTED CHICKEN",
+        "recipe" : "Enter this parmesan herb crusted chicken – a recipe that will elevate your weeknight dinner or add a touch of elegance to a special occasion.",
+        "image" : "3.jpg"
+    },
+    {
+        "Id" : 2,
+        "name" : "CHICKEN CARBONARA",
+        "recipe" : "It’s made with crispy bites of tender chicken breasts, tantalizing bits of Italian bacon, perfectly cooked pasta, and the most flavorful creamy sauce.",
+        "image" : "4.jpg"
+    },
+    {
+        "Id" : 3,
+        "name" : "IRISH STEW",
+        "recipe" : "Bursting with flavor, tender beef, creamy potatoes, and a rich broth flavored with Guinness beer, this Irish Stew is the ultimate comfort food.",
+        "image" : "5.jpg"
+    },
+    {
+        "Id" : 4,
+        "name" : "VEGETABLE BEEF SOUP",
+        "recipe" : "Tender chunks of beef cooked in a rich tomato broth with tons of fresh and frozen vegetables create a flavorful hearty soup recipe!",
+        "image" : "6.jpg"
+    },
+    {
+        "Id" : 5,
+        "name" : "NEW YORK STRIP STEAK",
+        "recipe" : "The absolute best way to cook a New York Strip Steak is to slow cook them in the oven with compound butter, give them a rest while the pan is heating on the stove",
+        "image" : "7.jpg"
+    },
+    {
+        "Id" : 6,
+        "name" : "FRENCH DIP SANDWICH",
+        "recipe" : "A toasted French Dip Sandwich with melted Gruyère and a delicious homemade Au Jus is easy to make with leftover prime rib roast or deli meat!",
+        "image" : "8.jpg"
+    },
+    {
+        "Id" : 7,
+        "name" : "GREEK PASTA SALAD",
+        "recipe" : "If you’re looking for a tasty and healthy pasta salad, look no further than Greek Pasta Salad. ",
+        "image" : "9.jpg"
+    }
+]

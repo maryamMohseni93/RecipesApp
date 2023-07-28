@@ -1,0 +1,30 @@
+.headeing{
+    text-align: center;
+    margin: 20px 0;
+    h2{
+        margin-top: 40px;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 30px;
+        color: #000000;
+    }
+    .heading-bell{
+        i{
+            color: #ff5247;
+            margin: 0 10px;
+        }
+        &::after , &::before{
+            content: "";
+            display: inline-block;
+            width: 70px;
+            height: 1px;
+            background: #dddad2;
+        }
+        &::after{
+            margin-right: 15px;
+        }
+        &::before{
+            margin-left: 15px;
+        }
+    }
+}

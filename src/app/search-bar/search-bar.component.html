@@ -1,0 +1,12 @@
+
+<div class="box-search">    
+        <input type="text" placeholder="Search" [formControl]="form" />
+        <i class="fa fa-search"></i>
+        <div class="box-autocomplate" *ngIf="isSearch">
+            <ul class="list-search" >
+                <li class="item-search" *ngFor="let item of autoCompleteList">
+                    <a href="#">{{item.name}}</a>
+                </li>
+            </ul>
+        </div>
+</div>

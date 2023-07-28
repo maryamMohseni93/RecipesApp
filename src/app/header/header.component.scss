@@ -1,0 +1,97 @@
+
+.main-slider{
+        background-image: url('../../assets/img/header.jpg');
+        background-position: 50% 0;
+        background-size: cover;
+        background-repeat: unset;
+        height: 350px;
+        border-radius: 30px;
+        margin-top: 30px;
+        position: relative;
+        overflow: hidden;
+        .haeder-overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%);
+            z-index: 1;
+        }
+        .content-slider{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            z-index: 11;
+            .left-item{
+                width: 50%;
+                font-size: 50px;
+                color: #fff;
+                margin-left: 16px;
+                font-weight: 600;
+                padding-left: 70px;
+            }
+        }
+}
+.top-header{
+    margin: 15px 0;
+    .logo{
+        a{
+            color: #eb4a36;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+    .main-menu{
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        .item-menu{
+            font-size: 13px;
+            padding: 0 10px;
+            text-transform: none;
+            transition: 0.1s ease-in-out;
+            transition-property: color;
+            position: relative;
+            a{
+                color: #4a4a4a;
+                line-height: 126px;
+            }
+            .count-recipes{
+                position: absolute;
+                top: 40px;
+                right: -3px;
+                z-index: 111;
+                background-color: #eb4a36;
+                display: inline-block;
+                line-height: 1;
+                padding: 3px;
+                width: 17px;
+                height: 17px;
+                text-align: center;
+                border-radius: 20px;
+                color: #fff;
+                font-size: 11px;
+            }
+            &:hover{
+                a{
+                    color: #eb4a36;
+                }
+                
+            }
+            &.active{
+                a{
+                    color: #eb4a36;
+                }
+                
+            }
+        }
+    }
+
+}

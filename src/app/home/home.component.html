@@ -1,0 +1,14 @@
+<div class="container">
+    <app-header [count]="numberRecipes"></app-header>
+<div class="headeing">
+    <h2>
+        Hottest Recipes at Food & Taste
+    </h2>
+    <div class="heading-bell">
+        <i class="fa fa-bell"></i>
+    </div>
+</div>
+<app-item-recipe (setCounter)="onSetCounter($event)"></app-item-recipe>
+       
+</div>
+

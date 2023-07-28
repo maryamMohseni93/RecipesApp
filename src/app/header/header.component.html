@@ -1,0 +1,44 @@
+
+<div class="container">
+    <div class="top-header">
+        <div class="row align-items-center">
+            <div class="col-lg-2">
+                <div class="logo">
+                   <a href="#">
+                    Logo Recipes
+                   </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <ul class="main-menu">
+                    <li class="item-menu active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="item-menu">
+                        <span class="count-recipes">{{_count}}</span>
+                        <a  (click)="RecipesSaved()">
+                            Recipes</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-5">
+                <app-search-bar></app-search-bar>
+            </div>
+        </div>
+    </div>
+    <div class="main-slider">
+        <div class="haeder-overlay"></div>
+        <div class="content-slider">
+            <div class="left-item">
+                <p>Choose from thousands of recipes</p>
+            </div>
+        </div>
+    </div>
+</div>
+
